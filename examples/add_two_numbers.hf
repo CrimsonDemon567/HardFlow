@@ -1,0 +1,21 @@
+nodes:
+  - id: 1
+    type: const
+    value: 5
+    output: a
+
+  - id: 2
+    type: const
+    value: 7
+    output: b
+
+  - id: 3
+    type: add
+    inputs: [a, b]
+    output: c
+
+registers: []
+
+control:
+  - state: S0
+    transition: END
