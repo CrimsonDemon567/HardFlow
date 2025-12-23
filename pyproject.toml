@@ -1,0 +1,17 @@
+[project]
+name = "hardflow"
+version = "0.1.0"
+description = "RAX to HardFlow compiler"
+authors = [{ name = "Vincent Noll" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.dependencies]
+pyyaml = "*"
+
+[project.scripts]
+hardflowc = "hardflow.compiler.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
