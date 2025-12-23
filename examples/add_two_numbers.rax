@@ -1,0 +1,4 @@
+LOAD r1, 5
+LOAD r2, 7
+ADD r3, r1, r2
+STORE r3, result
