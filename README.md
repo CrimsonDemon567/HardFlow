@@ -68,7 +68,7 @@ Python -> RAX -> HardFlow -> FPGA/ASIC
 ## Repository Structure
 
 - spec/       → HardFlow specification and RAX mapping
-- compiler/   → Parser, IR, and backend for HardFlow generation
+- hardflow/   → Parser, IR, and backend for HardFlow generation
 - examples/   → Example RAX programs and their HardFlow output
 - docs/       → Architecture and execution model documentation
 
